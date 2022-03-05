@@ -9,7 +9,10 @@
 
 using namespace std;
 
-
+template <typename T>
+void printArea(const T& shape){
+	std::cout << shape.area() << "\n";
+}
 
 int main() {
 	Rectangle r1{ 3.0, 5.0 };
