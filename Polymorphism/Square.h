@@ -1,7 +1,6 @@
 #pragma once
-#include "Shape.h"
-class Square : 
-	public Shape
+
+class Square 
 {
 public:
 	Square(double s);

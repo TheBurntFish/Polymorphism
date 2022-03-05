@@ -1,9 +1,8 @@
 #pragma once
-#include "Shape.h"
 
 
-class Circle : 
-	public Shape
+
+class Circle
 {
 public:
 	Circle(double r);
